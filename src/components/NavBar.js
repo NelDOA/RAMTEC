@@ -26,7 +26,7 @@ const NavBar = () => {
     };
 
     return (
-            <div className="relative bg-white font-ubuntu drop-shadow">
+            <div className="relative bg-white font-ubuntu">
                 <div className="md:transition-all max-w-7xl mx-auto px-4 sm:px-6">
                     <div className="md:transition-all flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-5 ">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -57,7 +57,7 @@ const NavBar = () => {
                     </div>
                 </div>
                 {/* MOBILE MENU :) ORALE! */}
-                <div className={`absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden ${hidden}`}>
+                <div className={`z-10 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden ${hidden}`}>
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                         <div className="pt-5 pb-6 px-5">
                             <div className="flex items-center justify-between">
@@ -75,7 +75,7 @@ const NavBar = () => {
                             </div>
                         </div>
                         {/* MENU DE OPCIONES */}
-                        <div className="py-6 px-5 space-y-6">
+                        <div className=" bg-white py-6 px-5 space-y-6">
                             {/* Tener cuidado con el tamaño del arreglo de los items del menu y el limite maximo para grid en Tailwind */}
                             <div className={`grid grid-rows-${items.length}`}>
                                 {

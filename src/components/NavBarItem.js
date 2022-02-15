@@ -3,12 +3,12 @@ import NavBarItemOptions from './NavBarItemOptions';
 
 const NavBarItem = ({item}) => {
 
-    const [hidden, setHidden] = useState('hidden');
+    const [hidden, setHidden] = useState('hidden opacity-0 translate-y-1');
     const [dirArrow, setDirArrow] = useState('rotate-0');
 
     const handleButtonNav = () => { 
         setHidden((current)=>{
-            return current==='hidden' ? '' : 'hidden';
+            return current==='hidden opacity-0 translate-y-1' ? 'opacity-100 translate-y-0' : 'hidden opacity-0 translate-y-1';
         });
         setDirArrow((current)=>{
             return current==='rotate-0' ? 'rotate-180' : 'rotate-0';
