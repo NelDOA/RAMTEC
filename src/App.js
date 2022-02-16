@@ -2,6 +2,7 @@ import React from 'react'
 import FeatureSection from './components/FeatureSection';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import DemosSection from './components/DemosSection';
 
 const items = [ {id:'prod',
                 title: 'Productos', 
@@ -20,9 +21,10 @@ const items = [ {id:'prod',
     ];
 const App = () => {
   return (
-    <div className='mx-auto' >
+    <div className='container mx-auto' >
       <NavBar items={items} />
       <FeatureSection />
+      <DemosSection />
       <Footer items={items}/>
     </div>
   )
