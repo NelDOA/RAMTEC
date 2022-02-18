@@ -3,7 +3,7 @@ import Demos from './Demos';
 
 const DemosSection = () => {
     return (
-        <div className="relative py-16 bg-white overflow-hidden">
+        <div id='demos' className="relative py-16 bg-white overflow-hidden">
             <div className="relative px-4 sm:px-6 lg:px-8">
                 <div className="text-lg max-w-prose mx-auto">
                     <h1>

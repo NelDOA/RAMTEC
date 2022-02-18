@@ -18,7 +18,7 @@ const MenuItem = ({item}) => {
     if (item.options) {
         return (
             <div className="relative w-full">
-                <button type="button"  onClick={handleItemMenu} className="transition ease-in-out delay-100 my-1 p-1 group bg-primero/80 hover:text-tercero focus:bg-primero focus:outline-none focus:ring-1 focus:ring-offset-3 focus:ring-cuarto w-full flex items-center justify-center border border-transparent rounded-md shadow-md text-white text-xl" aria-expanded="true">
+                <button type="button"  onClick={handleItemMenu} className="my-1 p-1 group bg-primero/80 hover:text-tercero focus:bg-primero focus:outline-none focus:ring-1 focus:ring-offset-3 focus:ring-cuarto w-full flex items-center justify-center border border-transparent rounded-md shadow-md text-white text-xl" aria-expanded="true">
                     <span className="font-sen">{item.title}</span>
                     <svg className={` ${dirArrow} text-gray-200 ml-2 h-5 w-5 group-hover:text-gray-300`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                         <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -31,7 +31,7 @@ const MenuItem = ({item}) => {
     } else {
         // si el item no tiene opciones, solo renderiza un enlace con su href con estilos
         return (
-            <a href={item.href} className="transition ease-in-out delay-100 my-1 p-1 group bg-primero/80 hover:text-tercero focus:bg-primero focus:outline-none focus:ring-1 focus:ring-offset-3 focus:ring-cuarto w-full flex items-center justify-center border border-transparent rounded-md shadow-md text-white text-xl"> {item.title} </a>
+            <a href={item.href} className="my-1 p-1 group bg-primero/80 hover:text-tercero focus:bg-primero focus:outline-none focus:ring-1 focus:ring-offset-3 focus:ring-cuarto w-full flex items-center justify-center border border-transparent rounded-md shadow-md text-white text-xl"> {item.title} </a>
         );
     }  
 }
