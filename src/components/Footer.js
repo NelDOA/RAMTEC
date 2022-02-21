@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import FooterNavItem from './FooterNavItem';
 
 const Footer = ({items}) => {
@@ -50,16 +51,16 @@ const Footer = ({items}) => {
                      }
                 </div>
                 <div className="border-t border-quinto pt-4 lg:flex lg:items-center lg:justify-between xl:mt-0">
-                        <img src='./Logo1.svg' className="w-3/5 mx-auto md:hidden"/>
-                        <img src='./Logo2.svg' className="hidden mx-auto md:flex md:w-2/5"/>
+                        <img src='/Logo1.svg' className="w-3/5 mx-auto md:hidden"/>
+                        <img src='/Logo2.svg' className="hidden mx-auto md:flex md:w-2/5"/>
                 </div>
                 <div className="mt-4 border-t border-quinto pt-4 text-center md:flex md:items-center md:justify-around">
                     <div className="flex justify-center space-x-6 md:order-2">
                         {socialPSvg.map((item) => (
-                        <a key={item.name} href={item.href} className="text-quinto hover:text-sexto">
+                        <NavLink key={item.name} to={item.href} className="text-quinto hover:text-sexto">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-10 w-10" aria-hidden="true" />
-                        </a>
+                        </NavLink>
                         ))}
                     </div>
                     <p className="mt-4 text-base  font-sen text-gray-400 md:mt-4 md:order-1">

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import MenuItem from './MenuItem';
 import NavBarItem from './NavBarItem';
 const NavBar = ({items}) => {
@@ -15,10 +16,10 @@ const NavBar = ({items}) => {
                 <div className="md:transition-all max-w-7xl mx-auto px-4 sm:px-6">
                     <div className="md:transition-all flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-5 ">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
-                            <a href="#" >
+                            <NavLink to="/" >
                                 <span className="sr-only font-sen" >RAMTEC</span>
-                                <img className="h-10 w-auto sm:h-10" src="./logo2.svg" alt=""/>
-                            </a>
+                                <img className="h-10 w-auto sm:h-10" src="/logo2.svg" alt=""/>
+                            </NavLink>
                         </div>
                         <div className="-mr-2 -my-2 md:hidden">
                             <button onClick={handleMenuMobile} type="button" className="transition ease-in-out delay-100 bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cuarto" aria-expanded="false">
@@ -36,8 +37,8 @@ const NavBar = ({items}) => {
                             }
                         </nav>
                         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                            <a href="#" className="transition ease-in-out delay-100 font-sen text-quinto text-sm font-semibold hover:text-tercero">Iniciar sesión</a>
-                            <a href="#" className="transition ease-in-out delay-100 ml-3 whitespace-nowrap inline-flex items-center justify-center px-2 py-2 border border-transparent rounded-md shadow-md text-sm font-semibold text-white bg-quinto hover:bg-cuarto">Registrarse</a>
+                            <NavLink to="#" className="transition ease-in-out delay-100 font-sen text-quinto text-sm font-semibold hover:text-tercero">Iniciar sesión</NavLink>
+                            <NavLink to="#" className="transition ease-in-out delay-100 ml-3 whitespace-nowrap inline-flex items-center justify-center px-2 py-2 border border-transparent rounded-md shadow-md text-sm font-semibold text-white bg-quinto hover:bg-cuarto">Registrarse</NavLink>
                         </div>
                     </div>
                 </div>
@@ -65,7 +66,7 @@ const NavBar = ({items}) => {
                             <div className={`grid grid-rows-${items.length}`}>
                                 {
                                     items.map((item) => {
-                                        return <MenuItem key={item.id} item={item}/>
+                                        return <MenuItem key={item.id} {...item} handleMenuMobile={handleMenuMobile} />
                                     })
                                 }
                             </div>

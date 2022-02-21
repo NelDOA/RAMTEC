@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const FooterNavItem = ({item}) => {
     return (
@@ -7,9 +8,9 @@ const FooterNavItem = ({item}) => {
             <ul role="list" className="mt-1 space-y-1">
                 {item.options?.map((option) => (
                     <li key={option.title}>
-                        <a href={option.href} className="text-base text-quinto hover:text-sexto">
+                        <NavLink to={option.href} className="text-base text-quinto hover:text-sexto">
                             {option.title}
-                        </a>
+                        </NavLink>
                     </li>
                 ))}
             </ul>

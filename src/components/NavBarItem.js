@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom'
 import NavBarItemOptions from './NavBarItemOptions';
 
 const NavBarItem = ({item}) => {
@@ -19,7 +20,6 @@ const NavBarItem = ({item}) => {
         return (
             <>
                 <div className="relative">
-                    {/* <!-- Item active: "text-tercero", Item inactive: "text-gray-500" --> */}
                     <button type="button"  onClick={handleButtonNav} className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-tercero focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cuarto" aria-expanded="true">
                         <span className="font-sen">{item.title}</span>
                         <svg className={` ${dirArrow} text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -27,14 +27,14 @@ const NavBarItem = ({item}) => {
                         </svg>
                     </button>
                     {/* Se crea el menu de opciones para el nav bar item */}
-                    <NavBarItemOptions hidden={hidden} options={item.options} footOptions={item.footOptions} />
+                    <NavBarItemOptions hidden={hidden} options={item.options} footOptions={item.footOptions} handleButtonNav={handleButtonNav} />
                 </div>
             </>
         );
     } else {
         // si el item no tiene opciones, solo renderiza un enlace con su href con estilos
         return (
-            <a href={item.href} className="text-base font-sen text-gray-500 hover:text-tercero"> {item.title} </a>
+            <NavLink to={item.href} className="text-base font-sen text-gray-500 hover:text-tercero"> {item.title} </NavLink>
         );
     }  
 }
