@@ -8,14 +8,14 @@ const DemosSection = () => {
                 <div className="text-lg max-w-prose mx-auto">
                     <h1>
                         <span className="block text-lg text-primero text-center font-semibold font-sen tracking-wide uppercase">
-                        Algunas muestras de nuestros productos
+                        Algunos de nuestros productos
                         </span>
                         <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight  font-sen text-tercero sm:text-4xl">
-                        Demos
+                            Muestras
                         </span>
                     </h1>
                     <p className="mt-8 text-xl text-gray-500 leading-8">
-                        Descripcion de la seccion
+                        Seleccione la categoría para ver más ejemplos
                     </p>
                 </div>
                 <div className="mt-6 text-gray-500 mx-auto">

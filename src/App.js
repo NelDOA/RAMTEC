@@ -1,9 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import ContactPage from './components/ContactPage';
 import Demo from './components/Demo';
-import FeatureSection from './components/FeatureSection';
 import FinishedsGalery, { ChapillasNaturales, ChapillasPrefabricadas, PinturasMetal } from './components/FinishedsGalery';
 import Footer from './components/Footer';
+import HomePage from './components/HomePage';
 import NavBar from './components/NavBar';
 
 const items = [ {id:'prod',
@@ -19,7 +20,7 @@ const items = [ {id:'prod',
                           ]
               },
               {id:'aboutUs', title: 'Sobre nosotros', href: '/'},
-              {id:'contactUs', title: 'Contáctenos', href: ''},
+              {id:'contactUs', title: 'Contáctenos', href: 'contactUs'},
     ]; 
 
 const App = () => {
@@ -29,8 +30,9 @@ const App = () => {
                 <NavBar items={items} />
                 
                 <Routes>
-                    <Route path='/' element={<FeatureSection />} />
+                    <Route path='/' element={<HomePage />} />
                     <Route path='demo' element={<Demo />} />
+                    <Route path='contactUs' element={<ContactPage />} />
                     <Route path='finisheds' element={<FinishedsGalery />} >
                         <Route path='chapillasNaturales' element={<ChapillasNaturales /> } />
                         <Route path='chapillasPrefabricadas' element={<ChapillasPrefabricadas /> } />
