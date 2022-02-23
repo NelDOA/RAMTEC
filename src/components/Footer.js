@@ -42,7 +42,7 @@ const Footer = ({items}) => {
       ];
     return (
         <footer className="bg-tercero" aria-labelledby="footer-heading">
-            <div className="max-w-7xl mx-auto py-4 px-4 sm:px-4 lg:py-8 lg:px-8">
+            <div className=" mx-auto py-4 px-4 sm:px-4 lg:py-8 lg:px-8">
                 <div className={`pb-8 grid grid-cols-2 gap-10 justify-items-center align-top md:grid md:grid-cols-4 md:gap-8`}>
                     {
                         items.map( (item) => {
@@ -57,7 +57,7 @@ const Footer = ({items}) => {
                 <div className="mt-4 border-t border-quinto pt-4 text-center md:flex md:items-center md:justify-around">
                     <div className="flex justify-center space-x-6 md:order-2">
                         {socialPSvg.map((item) => (
-                        <NavLink key={item.name} to={item.href} className="text-quinto hover:text-sexto">
+                        <NavLink key={item.name} to={item.href} className="transition-colors text-cuarto hover:text-sexto">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-10 w-10" aria-hidden="true" />
                         </NavLink>

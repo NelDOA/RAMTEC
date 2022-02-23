@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom'
 import MenuItemOptions from './MenuItemOptions';
 
-const MenuItem = ({options, title, href, handleMenuMobile}) => {
+const MenuItem = ({title, href, options, footOptions, handleMenuMobile}) => {
 
     const [optionsHidden, setOptionsHidden] = useState('hidden');
     const [dirArrow, setDirArrow] = useState('rotate-0');
@@ -27,7 +27,7 @@ const MenuItem = ({options, title, href, handleMenuMobile}) => {
                     </svg>
                 </button>
                 {/* Se crea el menu de opciones para el nav bar item */}
-                <MenuItemOptions hidden={optionsHidden} options={options} handleMenuMobile={handleMenuMobile}/>
+                <MenuItemOptions hidden={optionsHidden} options={options} footOptions={footOptions} handleMenuMobile={handleMenuMobile}/>
             </div>
         );
     } else {

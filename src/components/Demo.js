@@ -6,30 +6,30 @@ const Demo = () => {
         {   id: 'pt001',
             title: 'Muestra 1', 
             description: 'Esta es una breve descripción', 
-            parts: [{partName:'Marco', material:"Aluminio", finish:'Pino blanco'}, 
-                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Pino blanco'},
+            parts: [{partName:'Marco', material:"Aluminio", finish:'Cedrillo'}, 
+                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Cedrillo'},
                     {partName:'Hoja (páneles)', material:"Madera", finish:'Flormorado Gris Catedral'},
                 ], 
             src: './muestras-productos/puerta-1.jpg', 
             srcThumbnail: './muestras-productos/puerta-1-det.jpg',
         },
         {   id: 'pt2',
-            title: 'Puerta 2', 
+            title: 'Muestra 2', 
             description: 'Esta es una breve descripción', 
-            parts: [{partName:'Marco', material:"Aluminio", finish:'?'}, 
-                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'?'},
-                    {partName:'Hoja (páneles)', material:"Madera", finish:'?'},
+            parts: [{partName:'Marco', material:"Aluminio", finish:'Nogal oscuro'}, 
+                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Nogal oscuro'},
+                    {partName:'Hoja (páneles)', material:"Madera", finish:'Palisandro Catedral'},
                 ], 
             src: './muestras-productos/puerta-2.jpg', 
             srcThumbnail: './muestras-productos/puerta-2-det.jpg',
         },
         {   
             id: 'pt3',
-            title: 'Puerta 3', 
+            title: 'Muestra 3', 
             description: 'Esta es una breve descripción', 
-            parts: [{partName:'Marco', material:"Aluminio", finish:'?'}, 
-                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'?'},
-                    {partName:'Hoja (páneles)', material:"Madera", finish:'?'},
+            parts: [{partName:'Marco', material:"Aluminio", finish:'Nogal oscuro'}, 
+                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Nogal oscuro'},
+                    {partName:'Hoja (páneles)', material:"Madera", finish:'Ebano Macazar Rameado'},
                 ], 
             src: './muestras-productos/puerta-3.jpg', 
             srcThumbnail: './muestras-productos/puerta-3-det.jpg',
@@ -37,8 +37,8 @@ const Demo = () => {
         {   id: 'pt4',
             title: 'Muestra 4', 
             description: 'Esta es una breve descripción', 
-            parts: [{partName:'Marco', material:"Aluminio", finish:'Robre blanco'}, 
-                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Roble blanco'},
+            parts: [{partName:'Marco', material:"Aluminio", finish:'Cedrillo'}, 
+                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Cedrillo'},
                     {partName:'Hoja (páneles)', material:"Madera", finish:'Ojo pajaro claro'},
                 ], 
             src: './muestras-productos/puerta-4.jpg', 
@@ -47,8 +47,8 @@ const Demo = () => {
         {   id: 'pt5',
             title: 'Puerta 5', 
             description: 'Esta es una breve descripción', 
-            parts: [{partName:'Marco', material:"Aluminio", finish:'?'}, 
-                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'?'},
+            parts: [{partName:'Marco', material:"Aluminio", finish:'Nuez oscuro'}, 
+                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Nuez oscuro'},
                     {partName:'Hoja (páneles)', material:"Madera", finish:'?'},
                 ], 
             src: './muestras-productos/puerta-5.jpg', 
@@ -57,8 +57,8 @@ const Demo = () => {
         {   id: 'pt6',
             title: 'Puerta 6', 
             description: 'Esta es una breve descripción', 
-            parts: [{partName:'Marco', material:"Aluminio", finish:'?'}, 
-                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'?'},
+            parts: [{partName:'Marco', material:"Aluminio", finish:'Nuez oscuro'}, 
+                    {partName:'Hoja (Largueros y travesaños)', material:"Aluminio", finish:'Nuez oscuro'},
                     {partName:'Hoja (páneles)', material:"Madera", finish:'?'},
                 ], 
             src: './muestras-productos/puerta-6.jpg', 
@@ -82,14 +82,14 @@ const Demo = () => {
             <div className="text-lg max-w-prose mx-auto">
                 <h1>
                     <span className="block text-lg text-primero text-center font-semibold font-sen tracking-wide uppercase">
-                    Puertas peurtas puertas
+                        Puertas con estructura en aluminio y tableros en madera con acabados especiales
                     </span>
                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight  font-sen text-tercero sm:text-4xl">
-                    Puertas
+                        Puertas
                     </span>
                 </h1>
                 <p className="mt-8 text-xl text-gray-500 leading-8 text-center">
-                    Descripcion de la seccion de las puertas
+                    Seleccione la muestra a su derecha para ver el producto completo y sus características
                 </p>
             </div>
             <div className="mt-6 text-gray-500 mx-auto">
