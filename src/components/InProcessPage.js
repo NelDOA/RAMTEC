@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const InProcessPage = () => {
     return (
@@ -13,18 +14,18 @@ const InProcessPage = () => {
                                 <p className="mt-1 text-base text-segundo">Esta página está en construcción. Pronto terminaremos de completar su contenido. Gracias por visitarnos, por favor elija las opciones que le ofrecemos abajo para completar su consulta.</p>
                             </div>
                             <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
-                                <a
-                                    href="/"
+                                <Link
+                                    to="/"
                                     className=" transition-colors inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-white bg-primero hover:bg-cuarto hover:text-tercero focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sexto"
                                 >
                                     Ir a página inicial
-                                </a>
-                                <a
-                                    href="contactUs"
+                                </Link>
+                                <Link
+                                    to="contactUs"
                                     className="transition-colors inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full text-white bg-tercero hover:bg-sexto hover:text-tercero  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cuarto"
                                 >
                                     Necesito asesoría
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </main>

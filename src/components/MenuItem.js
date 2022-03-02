@@ -9,7 +9,7 @@ const MenuItem = ({title, href, options, footOptions, handleMenuMobile}) => {
 
     const handleItemMenu = () => { 
         setOptionsHidden((current)=>{
-            return current==='hidden' ? '' : 'hidden';
+            return current==='hidden' ? 'animate__fadeIn' : 'hidden';
         });
         setDirArrow((current)=>{
             return current==='rotate-0' ? 'rotate-180' : 'rotate-0';

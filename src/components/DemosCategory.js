@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 
 const DemosCategory = ({src, category, description, href}) => {
-    const posDefault = "object-top duration-400";
+    // Se decaran constantes para definir los estados inicial y final de los efectos hover de cada categoria
+    const posDefault = "object-top duration-[900ms]";
     const posFinal = "object-bottom duration-[4000ms]";
     const [imgTranslate, setImgTranslate]= useState(posDefault);
     const handleImg = () => {

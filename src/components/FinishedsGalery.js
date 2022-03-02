@@ -135,7 +135,7 @@ const FinishedsGalery = () => {
     const [selectedTab, setSelectedTab] = useState(tabs[0].href);
     
     useEffect(() => {
-        navigate(selectedTab, )
+        navigate(selectedTab)
     }, [selectedTab])
     
     const handleSelectedTab = (e) => {

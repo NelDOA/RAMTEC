@@ -97,27 +97,27 @@ const Demo = () => {
                 <div className='grid grid-cols-6 gap-2 justify-items-center'>
                     <div className="bg-white col-span-4 row-span-6 h-full w-full">
                         <section className="relative flex flex-wrap">
-                            <div className=" lg:relaive lg:w-1/2 lg:max-h-screen px-2  lg:pr-4 xl:pr-10">
-                                <img src={slide.src} alt='' className='lg:max-h-screen object-cover' ></img>
+                            <div className="lg:relative lg:w-1/2 ">
+                                <img src={slide.src} alt='' className='animate__animated animate__fadeIn md:max-h-[60vh] lg:max-h-[80vh] object-cover' ></img>
                             </div>
-                            <div className="max-w-md mx-auto pt-1 pb-1 px-1 sm:pb-1 sm:px-1 lg:max-w-max lg:pt-1 lg:px-8">
+                            <div className="max-w-md mx-auto py-1 px-1 sm:pb-1 sm:px-1 lg:max-w-max lg:pt-1 lg:ml-4 lg:px-2">
                                 <div className="">
-                                    <h2 className="font-semibold text-xs text-cuarto">
+                                    <h2 className="uppercase font-semibold text-xs text- lg:text-lg text-primero">
                                         {slide.id}
                                     </h2>
-                                    <p className="mt-1 text-2xl font-extrabold text-quinto tracking-tight">{slide.title}</p>
-                                    <p className="mt-1 text-xs text-segundo">
+                                    <p className="capitalize mt-1 text-2xl font-extrabold text-segundo tracking-tight">{slide.title}</p>
+                                    <p className="capitalize mt-1 text-xs text-tercero lg:text-lg">
                                         {slide.description}
                                     </p>
-                                    <dl className="mt-2 grid grid-cols-2 gap-2 text-sm lg:grid-cols-1">
+                                    <div className="capitalize mt-2 grid grid-cols-2 gap-2 text-sm lg:grid-cols-1 lg:text-base">
                                         {slide.parts.map((part) => (
                                             <div key={part.partName}>
-                                                <dt className="font-semibold text-segundo">{part.partName}</dt>
-                                                <dt className="font-medium text-primero"><span className="font-thin text-segundo" >material: </span>{part.material}</dt>
-                                                <dd className="mt-0 text-primero"><span className="font-thin text-segundo" >acabados: </span>{part.finish}</dd>
+                                                <div className="font-bold  text-tercero">{part.partName}</div>
+                                                <div className="font-bold text-primero"><span className="ml-1 font-semibold text-segundo" >material: </span>{part.material}</div>
+                                                <div className="font-bold text-primero"><span className="ml-1 font-semibold text-segundo" >acabados: </span>{part.finish}</div>
                                             </div>
                                         ))}
-                                    </dl>
+                                    </div>
                                 </div>
                             </div>
                         </section>

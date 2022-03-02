@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import InProcessPage from './components/InProcessPage';
 import NavBar from './components/NavBar';
+import Product from './components/Product';
 
 const items = [ {id:'prod',
                 title: 'Productos', 
@@ -34,9 +35,9 @@ const App = () => {
                 <Routes>
                     <Route path='/' element={<HomePage />} />
                     <Route path='demo' element={<Demo />} />
-                    <Route path='puertas' element={<InProcessPage />} />
-                    <Route path='ventanas' element={<InProcessPage />} />
-                    <Route path='muebles' element={<InProcessPage />} />
+                    <Route path='puertas' element={<Product cls={0} />} />
+                    <Route path='ventanas' element={<Product cls={1} />} />
+                    <Route path='muebles' element={<Product cls={2} />} />
                     <Route path='contactUs' element={<ContactPage />} />
                     <Route path='aboutUs' element={<AboutUsPage />} />
                     <Route path='finisheds' element={<FinishedsGalery />} >
