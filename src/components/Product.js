@@ -97,24 +97,24 @@ const infoProduct = [
 const Product = ({cls=0}) => {
     return (
         <>
-            <div className="relative bg-primero">
+            <div className="container mx-auto relative bg-primero">
                 <div className="absolute inset-0">
                     <img
-                        className="w-full h-full object-cover"
+                        className="animate__animated animate__fadeIn w-full h-full object-cover"
                         src={infoProduct[cls].imgSrc}
                         alt=""
                     />
                     <div className="absolute inset-0 bg-primero mix-blend-multiply" aria-hidden="true" />
                 </div>
-                <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+                <div className="relative mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">{ infoProduct[cls].name }</h1>
                     <p className="mt-6 text-xl text-indigo-100 max-w-3xl">
                         { infoProduct[cls].description }
                     </p>
                 </div>
             </div>
-            <div className="bg-white">
-                <div className="max-w-2xl mx-auto py-6 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div className="container mx-auto bg-white">
+                <div className="py-6 px-4 sm:py-10 sm:px-6 lg:px-8">
                     <div className="px-4 py-6 flex items-center justify-between sm:px-6 lg:px-1">
                         <h2 className="text-2xl font-extrabold tracking-tight text-tercero">Modelos</h2>
                         <a href="#" className="block text-right text-base font-semibold text-primero hover:text-cuarto">
@@ -131,7 +131,7 @@ const Product = ({cls=0}) => {
                                     <img
                                         src={model.imgSrc}
                                         alt={model.imgAlt}
-                                        className="w-full h-full object-center object-cover group-hover:"
+                                        className="animate__animated animate__fadeIn w-full h-full object-center object-cover group-hover:"
                                     />
                                 </div>
                                 <div className="flex items-center justify-between text-base font-medium bg-segundo border-y border-sexto  px-4">

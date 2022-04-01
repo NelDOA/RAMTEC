@@ -77,7 +77,7 @@ const Demo = () => {
     };
 
     return (
-        <div className="relative py-16 bg-white overflow-hidden">
+        <div className="container mx-auto relative py-16 bg-white overflow-hidden">
         <div className="relative px-4 sm:px-6 lg:px-8">
             <div className="text-lg max-w-prose mx-auto">
                 <h1>
@@ -126,7 +126,7 @@ const Demo = () => {
                         demos.map( (demo) => {
                             return (
                                 <div key={demo.id} className= 'transition-all duration-150 ease-in-out col-span-2 max-h-28 rounded-md  shadow-sm shadow-black overflow-hidden hover:scale-110 hover:shadow-xl' >
-                                    <img id={demo.id} onClick={handleShowImage}  src={demo.srcThumbnail} alt={demo.src} className=' inset-0 w-full object-cover' ></img>
+                                    <img id={demo.id} onClick={handleShowImage}  src={demo.srcThumbnail} alt={demo.src} className='animate__animated animate__fadeIn inset-0 w-full object-cover' ></img>
                                 </div>
                             )
                         } )

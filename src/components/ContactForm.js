@@ -4,11 +4,11 @@ import { Icon } from '@iconify/react';
 
 const ContactForm = () => {
     return (
-        <div className="relative bg-white">
+        <div className="container mx-auto relative bg-white">
             <div className="absolute inset-0">
                 <div className="absolute inset-y-0 left-0 w-1/2 bg-sexto" />
             </div>
-            <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
+            <div className="relative  mx-auto lg:grid lg:grid-cols-5">
                 <div className="bg-sexto  py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div className="max-w-lg mx-auto">
                         <h2 className="text-2xl font-sen font-extrabold tracking-tight text-tercero sm:text-3xl">Escríbanos</h2>
@@ -26,29 +26,29 @@ const ContactForm = () => {
                             <div className="mt-6">
                                 <dt className="sr-only">Número telefónico</dt>
                                 <dd className="flex">
-                                    <PhoneIcon className="flex-shrink-0 h-6 w-6 text-cuarto" aria-hidden="true" />
+                                    <PhoneIcon className="flex-shrink-0 h-6 w-6 text-tercero" aria-hidden="true" />
                                     <span className="ml-3 text-tercero">311 290 3486</span>
                                 </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">Email</dt>
                                 <dd className="flex">
-                                    <MailIcon className="flex-shrink-0 h-6 w-6 text-cuarto" aria-hidden="true" />
+                                    <MailIcon className="flex-shrink-0 h-6 w-6 text-tercero" aria-hidden="true" />
                                     <a href="mailto:soporte@ramtec.co?Subject=Contacto" className="ml-3" >soporte@ramtec.co</a> 
                                 </dd>
                             </div>
                             <div className="mt-3">
                                 <dt className="sr-only">WhatsApp</dt>
                                 <dd className="flex mt-1 ">
-                                    <Icon icon="simple-icons:whatsapp" className="h-6 w-6 flex-shrink-0 text-cuarto" aria-hidden="true"> WhatsApp </Icon>
+                                    <Icon icon="simple-icons:whatsapp" className="h-6 w-6 flex-shrink-0 text-tercero" aria-hidden="true"> WhatsApp </Icon>
                                     <a href='https://wa.me/573112903486?text=Hola%20RAMTEC.%20Requiero%20contactarme%20con%20ustedes' className="ml-3" > 311 290 34 86</a> 
                                 </dd>
                                 <dd className="flex mt-1  ">
-                                    <Icon icon="simple-icons:whatsapp" className="h-6 w-6 flex-shrink-0 text-cuarto" aria-hidden="true"> WhatsApp </Icon>
+                                    <Icon icon="simple-icons:whatsapp" className="h-6 w-6 flex-shrink-0 text-tercero" aria-hidden="true"> WhatsApp </Icon>
                                     <a href='https://wa.me/573192343480?text=Hola%20RAMTEC.%20Requiero%20contactarme%20con%20ustedes' className="ml-3" > 319 234 34 80</a>
                                 </dd>
                                 <dd className="flex mt-1  ">
-                                    <Icon icon="simple-icons:whatsapp" className="h-6 w-6 flex-shrink-0 text-cuarto" aria-hidden="true"> WhatsApp </Icon>
+                                    <Icon icon="simple-icons:whatsapp" className="h-6 w-6 flex-shrink-0 text-tercero" aria-hidden="true"> WhatsApp </Icon>
                                     <a href='https://wa.me/573125237101?text=Hola%20RAMTEC.%20Requiero%20contactarme%20con%20ustedes' className="ml-3" > 312 523 71 01</a> 
                                 </dd>
                             </div>

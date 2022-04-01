@@ -5,8 +5,8 @@ import { Icon } from '@iconify/react';
 const ContactInfo = () => {
     return (
         <div className="bg-white">
-            <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-8">
+            <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-16">
                     <div>
                         <h2 className="text-2xl font-extrabold text-tercero font-sen sm:text-3xl">Asesoría</h2>
                         <div className="mt-3">

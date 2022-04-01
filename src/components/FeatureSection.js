@@ -30,7 +30,7 @@ const FeatureSection = () => {
     ]
     return (
         <div className="py-12 bg-white font-sen">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <h2 className="text-lg text-primero font-semibold font-sen tracking-wide uppercase">Puertas, ventanas y mobiliario con estilo para sus espacios</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight font-sen text-tercero sm:text-4xl">
@@ -41,7 +41,7 @@ const FeatureSection = () => {
                     </p>
                 </div>
                 <div className="mt-10">
-                    <dl className=" z-10 space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <dl className=" z-10 space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-14 md:gap-y-10">
                         {features.map((feature) => (
                             <div key={feature.name} className="relative">
                                 <dt>
@@ -50,7 +50,7 @@ const FeatureSection = () => {
                                     </div>
                                     <p className="ml-16 text-lg leading-6 font-ubuntu font-medium text-tercero">{feature.name}</p>
                                 </dt>
-                                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
+                                <dd className="mt-2 ml-16 text-base  text-justify text-gray-500">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>

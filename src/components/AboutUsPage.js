@@ -1,5 +1,5 @@
 import React from 'react';
-import { EyeIcon, FlagIcon, HeartIcon, NewspaperIcon, PaperAirplaneIcon } from '@heroicons/react/outline';
+import { EyeIcon, FlagIcon, HeartIcon } from '@heroicons/react/outline';
 
 const aboutInfo = [
     {
@@ -31,6 +31,11 @@ const people = [
       role: 'Co-Founder / CEO',
       imageSrc:'',
     },
+    {
+        name: 'Teresa Avendaño',
+        role: 'Co-Founder / CEO',
+        imageSrc:'',
+      },
 ]
 
 const AboutUsPage = () => {
@@ -40,15 +45,15 @@ const AboutUsPage = () => {
             <div className="relative pb-32 bg-tercero">
                 <div className="absolute inset-0">
                     <img
-                        className="w-full h-full object-cover"
+                        className="animate__animated animate__fadeIn w-full h-full object-cover"
                         src="/assets/images/aboutUsHeader.jpg"
                         alt=""
                     />
                     <div className="absolute inset-0 bg-tercero mix-blend-multiply" aria-hidden="true" />
                 </div>
-                <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+                <div className="relative container mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-extrabold font-ubuntu tracking-tight text-cuarto md:text-5xl lg:text-6xl">Quiénes somos</h1>
-                    <section className="mt-6 max-w-3xl text-justify mx-auto text-xl font-semibold text-white">
+                    <section className="mt-6 max-w-7xl text-justify mx-auto text-xl font-semibold text-white">
                         <p className='mt-1'>Somos una empresa que surge de una idea propia del fundador, desarrollada y soportada por su núcleo familiar y que se proyecta para hacerla crecer de manera ordenada, sistemática y sostenible. Nos dedicamos a fabricar puertas, ventanas y muebles en general, con diseños originales y materiales duraderos.</p>
                         <p className='mt-1'>Sabemos que muchas veces las puertas y ventanas en madera son elegantes y vistosas, sin embargo, son frágiles y poco adecuadas para ambientes húmedos y cálidos. Nuestro objetivo es resolver esta necesidad, entregando productos con las virtudes de la madera haciendo uso materiales más resistentes, duraderos y adaptables a muchas condiciones ambientales. </p>
                     {/* estas son las personas que estan detras del proyecto, mostrar foto agradable de cada uno. mpieza escribiendo un texto que te describa. Debe ser persuasivo y atractivo, dinámico y creativo. El clásico Nuestra compañía empezó en 1957… te describe, pero quizá aburra al lector. Ten en cuenta que este será el primer párrafo que lean sobre ti: dedícale tiempo e intenta mejorarlo siempre. Empieza escribiendo un texto que te describa. Debe ser persuasivo y atractivo, dinámico y creativo. El clásico Nuestra compañía empezó en 1957… te describe, pero quizá aburra al lector. Ten en cuenta que este será el primer párrafo que lean sobre ti: dedícale tiempo e intenta mejorarlo siempre. Explícale a qué te dedicas y qué puedes hacer para ayudarle. En esta parte es interesante hacer partícipe de tu historia al usuario con frases como «y si estás buscando que…», «me gustaría ayudarte a que mejores en…». Debe quedar muy claro a qué te dedicas y qué van a ganar si te eligen a ti. */}
@@ -58,7 +63,7 @@ const AboutUsPage = () => {
 
             {/* Overlapping cards */}
             <section
-                className="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
+                className="-mt-32 container mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
                 aria-labelledby="contact-heading"
             >
                 <h2 className="sr-only" id="contact-heading">
@@ -85,13 +90,13 @@ const AboutUsPage = () => {
             </section>
             
             {/* THE TEAM */}
-            <div className="bg-white">
-                <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+            <div className="container mx-auto bg-white">
+                <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
                     <div className="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">
                         <div className="space-y-5 sm:space-y-4">
                             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-tercero ">Equipo</h2>
                             <p className="text-xl text-segundo">
-                                Descripcion del equipo
+                                Descripción del equipo
                             </p>
                         </div>
                         <div className="lg:col-span-2">

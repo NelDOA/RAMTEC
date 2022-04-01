@@ -142,11 +142,11 @@ const FinishedsGalery = () => {
         setSelectedTab(e.target.value)
     };
     return (
-        <div className="flex-1 flex max-w-7xl mx-auto items-stretch overflow-hidden">
+        <div className="container flex-1 flex mx-auto items-stretch overflow-hidden">
             <main className="flex-1 overflow-y-auto">
-                <div className="pt-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="pt-8  mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex">
-                        <h1 className="flex-1 text-2xl font-bold text-tercero">Acabados</h1>
+                        <h1 className="flex-1 text-2xl font-bold text-segundo">Acabados</h1>
 
                     </div>
                     {/* Tabs */}
@@ -177,7 +177,7 @@ const FinishedsGalery = () => {
                                             key={tab.name}
                                             onClick={handleSelectedTab}
                                             value={tab.href}
-                                            className={(selectedTab === tab.href)?`border-tercero text-tercero whitespace-nowrap py-4 px-1 border-b-4 font-medium text-sm`:`border-transparent text-segundo hover:text-primero hover:border-cuarto whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
+                                            className={(selectedTab === tab.href)?`border-segundo text-segundo whitespace-nowrap py-4 px-1 border-b-4 font-medium text-sm `:`border-transparent text-tercero hover:text-primero hover:border-primero whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
                                             >
                                             {tab.name}
                                         </button>
@@ -214,7 +214,7 @@ export const ChapillasNaturales = () => {
                         <img
                         src={file.src}
                         alt=""
-                        className={' group-hover:opacity-100 object-cover pointer-events-none'}
+                        className={'animate__animated animate__fadeIn group-hover:opacity-100 object-cover pointer-events-none'}
                         />
                         <button type="button" className="absolute inset-0 focus:outline-none">
                             <span className="sr-only">Ver detalles de {file.name}</span>
@@ -246,9 +246,9 @@ export const ChapillasPrefabricadas = () => {
                       className={'transition-transform duration-100 hover:shadow-xl hover:scale-105 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-quinto focus-within:ring-cuarto group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-segundo overflow-hidden'}
                   >
                       <img
-                      src={file.src}
-                      alt=""
-                      className={`group-hover:opacity-100 object-cover pointer-events-none`}
+                        src={file.src}
+                        alt=""
+                        className={`animate__animated animate__fadeIn group-hover:opacity-100 object-cover pointer-events-none`}
                       />
                       <button type="button" className="absolute inset-0 focus:outline-none">
                           <span className="sr-only">Ver detalles de {file.name}</span>
@@ -280,9 +280,9 @@ export const ChapillasPrefabricadas = () => {
                       className={'transition-transform duration-100 hover:shadow-xl hover:scale-105 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-quinto focus-within:ring-cuarto group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-segundo overflow-hidden'}
                   >
                       <img
-                      src={file.src}
-                      alt=""
-                      className={' group-hover:opacity-100 object-cover pointer-events-none'}
+                        src={file.src}
+                        alt=""
+                        className={'animate__animated animate__fadeIn group-hover:opacity-100 object-cover pointer-events-none'}
                       />
                       <button type="button" className="absolute inset-0 focus:outline-none">
                           <span className="sr-only">Ver detalles de {file.name}</span>
