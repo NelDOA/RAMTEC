@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 567 567" xmlns:vectornator="http://vectornator.io" xml:space="preserve" height="100%" xmlns="http://www.w3.org/2000/svg" width="100%" version="1.1">
+<metadata>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="WDUnits" value="Millimeters"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting value="false" key="WDSnapToPoints"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting value="true" key="WDSnapToGrid"/>
+<vectornator:setting value="false" key="IsTimeLapseWatermarkDisabled"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting value="false" key="WDCMYKEnabledKey"/>
+<vectornator:setting value="false" key="UndoHistoryDisabled"/>
+<vectornator:setting value="true" key="WDGuidesVisible"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+</metadata>
+<defs/>
+<g id="Capa 1" vectornator:layerName="Capa 1">
+<g opacity="1">
+<g opacity="1">
+<path opacity="1" fill="#5a6e66" d="M56.3+510.527L68.1+510.527L68.1+479.327L94.9+479.327L107.9+510.527L120.1+510.527L106.7+478.127C114.9+475.127+120.1+467.327+120.1+458.527C120.1+447.127+111.7+437.727+99.1+437.727L56.3+437.727L56.3+510.527ZM68.1+468.927L68.1+448.127L97.9+448.127C104.1+448.127+108.3+452.327+108.3+458.527C108.3+464.727+104.1+468.927+97.9+468.927L68.1+468.927Z"/>
+<path d="M125.5+510.527L137.3+510.527L141.5+500.127L182.3+500.127L186.7+510.527L198.3+510.527L167.1+437.727L156.7+437.727L125.5+510.527ZM145.9+489.727L161.9+451.327L177.9+489.727L145.9+489.727Z" fill="#5a6e66" opacity="1"/>
+<path opacity="1" d="M206.3+510.527L217.9+510.527L217.9+456.927L243.3+481.327L268.7+456.927L268.7+510.527L280.3+510.527L280.3+437.727L272.5+437.727L243.3+466.727L214.3+437.727L206.3+437.727L206.3+510.527Z" fill="#5a6e66"/>
+<path fill="#5a6e66" opacity="1" d="M316.9+510.527L328.5+510.527L328.5+448.127L355.3+448.127L355.3+437.727L290.1+437.727L290.1+448.127L316.9+448.127L316.9+510.527Z"/>
+<path opacity="1" d="M365.1+510.527L429.1+510.527L429.1+500.127L376.9+500.127L376.9+479.327L428.3+479.327L428.3+468.927L376.9+468.927L376.9+448.127L429.1+448.127L429.1+437.727L365.1+437.727L365.1+510.527Z" fill="#5a6e66"/>
+<path d="M477.7+511.527C487.9+511.527+497.3+507.327+504.1+500.527L496.3+492.727C491.7+497.727+485.1+500.927+477.7+500.927C462.9+500.927+451.9+488.927+451.9+474.127C451.9+459.327+462.9+447.327+477.7+447.327C485.3+447.327+491.7+450.327+496.3+455.327L504.3+447.327C497.7+440.927+488.7+436.727+477.7+436.727C457.1+436.727+439.9+453.527+439.9+474.127C439.9+496.327+455.5+511.527+477.7+511.527Z" opacity="1" fill="#5a6e66"/>
+</g>
+<g opacity="1">
+<path stroke-width="1" stroke="#45a183" stroke-linecap="round" stroke-linejoin="round" fill="#45a183" opacity="1" d="M411.169+334.176L379.252+315.748L379.252+297.321L411.169+315.748L411.169+334.176Z"/>
+<path stroke-linecap="round" stroke="#7bedc2" stroke-linejoin="round" fill="#7bedc2" stroke-width="1" opacity="1" d="M155.831+223.611L187.748+205.183L283.5+260.466L251.583+278.893L155.831+223.611Z"/>
+<path fill="#7bedc2" stroke-linecap="round" stroke-width="1" stroke="#7bedc2" stroke-linejoin="round" opacity="1" d="M331.376+288.107L299.459+269.679L315.417+242.038L347.335+260.466L331.376+288.107Z"/>
+<path stroke-linejoin="round" stroke-linecap="round" fill="#7bedc2" d="M411.169+223.611L379.252+205.183L315.417+242.038L347.335+260.466L411.169+223.611Z" stroke-width="1" stroke="#7bedc2" opacity="1"/>
+<path d="M363.293+324.962L331.376+306.534L363.293+288.107L379.252+260.466L411.169+278.893L395.211+306.534L363.293+324.962Z" fill="#7bedc2" stroke-width="1" opacity="1" stroke="#7bedc2" stroke-linejoin="round" stroke-linecap="round"/>
+<path stroke-linejoin="round" d="M331.376+380.244L299.459+361.817L299.459+269.679L331.376+288.107L331.376+380.244Z" opacity="1" fill="#45a183" stroke-width="1" stroke-linecap="round" stroke="#45a183"/>
+<path opacity="1" stroke-linecap="round" stroke-width="1" d="M155.831+334.176L187.748+315.748L187.748+242.038L155.831+260.466L155.831+334.176Z" stroke="#5a6e66" fill="#5a6e66" stroke-linejoin="round"/>
+<path fill="#5a6e66" stroke-linejoin="round" opacity="1" d="M283.5+407.886L315.417+389.458L283.5+297.321L251.583+315.748L283.5+407.886Z" stroke="#5a6e66" stroke-linecap="round" stroke-width="1"/>
+<path stroke="#5a6e66" fill="#5a6e66" stroke-width="1" d="M155.831+223.611L187.748+205.183L187.748+168.328L155.831+186.756L155.831+223.611Z" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+<path stroke-linejoin="round" stroke-width="1" d="M219.665+113.046L187.748+131.473L187.748+168.328L219.665+149.901L219.665+113.046Z" opacity="1" stroke="#5a6e66" fill="#5a6e66" stroke-linecap="round"/>
+<path stroke="#5a6e66" d="M251.583+94.6181L283.5+76.1906L283.5+113.046L251.583+131.473L251.583+94.6181Z" stroke-linecap="round" stroke-linejoin="round" fill="#5a6e66" stroke-width="1" opacity="1"/>
+<path stroke-linecap="round" d="M283.5+149.901L315.417+131.473L315.417+168.328L283.5+186.756L283.5+149.901Z" stroke-linejoin="round" fill="#5a6e66" stroke-width="1" opacity="1" stroke="#5a6e66"/>
+<path opacity="1" d="M283.5+76.1906L283.5+113.046L379.252+168.328L379.252+131.473L283.5+76.1906Z" stroke="#45a183" stroke-width="1" stroke-linecap="round" fill="#45a183" stroke-linejoin="round"/>
+<path stroke-linecap="round" stroke-linejoin="round" stroke="#45a183" stroke-width="1" d="M219.665+113.046L219.665+149.901L283.5+186.756L283.5+149.901L219.665+113.046Z" fill="#45a183" opacity="1"/>
+<path opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke="#45a183" fill="#45a183" d="M411.169+223.611L379.252+205.183L379.252+168.328L411.169+186.756L411.169+223.611Z" stroke-width="1"/>
+<path fill="#45a183" stroke-linecap="round" opacity="1" stroke="#45a183" stroke-linejoin="round" d="M411.169+278.893L379.252+260.466L379.252+242.038L411.169+260.466L411.169+278.893Z" stroke-width="1"/>
+<path stroke="#45a183" opacity="1" fill="#45a183" stroke-width="1" d="M123.913+131.479L123.913+315.761L155.819+334.167L155.819+260.479L219.663+297.323L251.569+389.448L283.507+407.886L251.569+315.761L283.507+297.323L283.507+223.604L123.913+131.479ZM155.819+186.761L251.569+242.042L251.569+278.886L155.819+223.604L155.819+186.761Z" stroke-linecap="round" stroke-linejoin="round"/>
+<path stroke-linecap="round" stroke-linejoin="round" d="M443.074+131.481L283.512+223.606L283.512+297.324L315.418+278.887L315.418+242.043L411.168+186.762L411.168+223.606L347.324+260.481L331.387+288.106L331.387+380.231L395.199+343.387L411.168+315.762L411.168+334.168L443.074+315.762L443.074+131.481ZM411.168+260.481L411.168+278.887L395.199+306.543L363.293+324.949L363.293+306.543L379.262+278.887L411.168+260.481Z" opacity="1" fill="#5a6e66" stroke="#5a6e66" stroke-width="1"/>
+<path stroke-linecap="round" opacity="1" d="M283.524+39.3356L203.707+85.4106L123.931+131.492L283.524+223.617L443.087+131.492L283.524+39.3356ZM283.502+76.1969L379.252+131.478L283.502+186.759L187.752+131.478L219.658+113.041L283.502+149.884L315.408+131.478L251.565+94.6031L283.502+76.1969Z" stroke="#7bedc2" stroke-width="1" stroke-linejoin="round" fill="#7bedc2"/>
+</g>
+</g>
+</g>
+</svg>
