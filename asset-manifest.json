@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/RAMTEC/static/css/main.6aeb7ed7.css",
-    "main.js": "/RAMTEC/static/js/main.19d9569f.js",
+    "main.js": "/RAMTEC/static/js/main.ce990baf.js",
     "index.html": "/RAMTEC/index.html",
     "main.6aeb7ed7.css.map": "/RAMTEC/static/css/main.6aeb7ed7.css.map",
-    "main.19d9569f.js.map": "/RAMTEC/static/js/main.19d9569f.js.map"
+    "main.ce990baf.js.map": "/RAMTEC/static/js/main.ce990baf.js.map"
   },
   "entrypoints": [
     "static/css/main.6aeb7ed7.css",
-    "static/js/main.19d9569f.js"
+    "static/js/main.ce990baf.js"
   ]
 }
